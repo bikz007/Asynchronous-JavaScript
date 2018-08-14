@@ -3,12 +3,47 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Product App</title>
+    <title>Catalog App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="productCatalog.js"></script>
+    <script src="library.js"></script>
 </head>
 <body>
-    
+    <div>
+        <h3>Search Product by Id</h3>
+        <input id="input">
+        <button id="inputButton">Search Product</button>
+    </div>
+
+    <div>
+        <h3>Examined Product</h3>
+        <p id="productText">Product Id:
+            <br>Price:
+            <br>Type: </p>
+        <h3>List of Similar Products</h3>
+        <table id="similarTable" width="300px" border="1">
+            <tr>
+                <th>ProductId</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Examine</th>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h3>List of All Products</h3>
+        <table id="allTable" width="300px" border="1">
+            <tr>
+                <th>ProductId</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Examine</th>
+            </tr>
+        </table>
+    </div>
+
+
+<script src="productCatalog.js"></script> 
 </body>
 </html>
