@@ -1,5 +1,5 @@
 # Asynchronous-JavaScript
-  
-1.[Fundamentals](https://github.com/bikz007/Asynchronous-JavaScript/blob/master/Fundamentals.md)
-<br>
-2.[Promises](https://github.com/bikz007/Asynchronous-JavaScript/blob/master/Promises.md)
+
+1. [Fundamentals](./Fundamentals.md)
+2. [Promises](./Promises.md)
+2. [Fetch API](./Fetch.md)
